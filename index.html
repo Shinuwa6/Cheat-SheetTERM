@@ -16,42 +16,37 @@
 </p>
 <h2>Commande de GIT via le terminal</h2>
 <table>
-  <td style="text-align: left; color: #CC9900; font-weight: 800;">
-    CREATE :
-  </td>
+
 <tr>
-  <th>git clone "URL"</th>
+  <th>ls</th>
 <td>Clone an existing repository</td>
 </tr>
 <tr style="margin-bottom: 100px;">
-<th> git init</th>
+<th> ls -all</th>
 <td>Create a new local repository
 </tr>
-<td style="text-align: left; color: #CC9900; font-weight: 800;">
-  LOCAL CHANGES :
-</td>
 <tr>
-<th>git status</th>
+<th>ls -lh</th>
 <td>Changed files in your working directory</td>
 </tr>
 <tr>
-<th>git diff</th>
+<th>cd "nom du rep"</th>
 <td>Changes to tracked files</td>
 <tr>
-<th>git add .</th>
+<th>rm "nom_du_fichier"</th>
 <td>Add all current changes in "files" to the next commit</td>
 </tr>
 <tr>
-<th>git add -p "files"</th>
+<th>mkdir "nom_du_rep"</th>
 <td>Add some changes in "files" to the next commit</td>
 </tr>
 <tr>
-<th>git commit -a</th>
+<th> rmdir "nom_du_repgit"</th>
 <td>Commit all local changes in tracked files</td>
 </tr>
 <tr>
   <th>
-    git commit
+    pwd
   </th>
   <td>
     Commit previously staged changes
@@ -59,75 +54,43 @@
 </tr>
 <tr>
   <th>
-    git commit --amend
+    cp "doc_source doc_destination"
   </th>
   <td>
     Change the last commit
   </td>
 </tr>
-<td style="text-align: left; color: #CC9900; font-weight: 800;">
-  BRANCH :
-</td>
 <tr>
-  <th>git branch -av</th>
+  <th> cp -R "rep_source rep_destination"</th>
   <td>List all existing branches</td>
 </tr>
 <tr>
-  <th>git checkout "branch"</th>
+  <th>mv "doc_source doc_destination"</th>
   <td>Switch head branch</td>
 </tr>
 <tr>
-  <th>git branch "new-branch"</th>
+  <th>$ top</th>
   <td>Create a new branch based on your current HEAD</td>
 </tr>
 <tr>
-  <th>git checkout --track "remote/branch"</th>
+  <th>$ who</th>
   <td>Create a new tracking branch based on a remote branch</td>
 </tr>
 <tr>
-  <th>git branch -d "ranch"</th>
+  <th>$ w</th>
   <td>Delete a local branch</td>
 </tr>
 <tr>
-  <th>git tag "tag name"</th>
+  <th>$ users</th>
   <td>Mark the current commit with a tag</td>
 </tr>
-<td style="text-align: left; color: #CC9900; font-weight: 800;">
-  COMMIT HISTORY :
-</td>
 <tr>
-  <th>git log</th>
+  <th>$ write "nom_d'utilisateur"</th>
   <td>Show all commits, staring with newest</td>
 </tr>
 <tr>
-  <th>git log -p "files"</th>
+  <th>$ uptime</th>
   <td>Show changes over time for a specific file</td>
-</tr>
-<tr>
-  <th>git blame "file"</th>
-  <td>Who changed what and when in "file"</td>
-</tr>
-<td style="text-align: left; color: #CC9900; font-weight: 800;">
-  MERGE & REBASE :
-</td>
-<tr>
-  <th>git merge "branch"</th>
-  <td>Merge "branch" into your current HEAD</td>
-</tr><tr>
-  <th>git rebase "files"</th>
-  <td>Rebase your current HEAD onto "branch"</td>
-</tr><tr>
-  <th>git rebase --abort</th>
-  <td>Abort a rebase</td>
-</tr><tr>
-  <th>git rebase --continue</th>
-  <td>Continue a rebase after resolving conflicts</td>
-</tr><tr>
-  <th>git mergetool</th>
-  <td>Use your configured merge tool to solve conflicts</td>
-</tr><tr>
-  <th>git add "resolved-file"</th>
-  <td>Use your editor to manually solve conflicts and mark file as resolved</td>
 </tr>
 </table>
   </body>
