@@ -9,7 +9,7 @@ h1 {color: black;
 }
 
 td {background-color;
-text-align: center;
+text-align: left;
 padding-left: 20px;
 font-family: sans-serif;
 color: black;
@@ -17,11 +17,12 @@ font-weight: bolder;
 }
 
 th {background-color:#CCFFCC;
-text-align: right;
+text-align: center;
 font-family: cursive;
 color :black;
 font-style: italic;
-font-weight: bolder;}
+font-weight: bolder;
+border-radius: 10px;}
 
 tr {background-color:white ;
 }
