@@ -6,7 +6,7 @@ h1 {color: black;
   margin: auto;
   margin-bottom: 100px;
   border-radius: 10px
-}
+} /*config css entrée*/
 
 td {background-color;
 text-align: left;
@@ -35,7 +35,7 @@ table{ margin: auto;
      text-align: left;
      border-collapse: collapse
      background-color: none;
-  }
+  } /*config tableau*/
 
 
 p {font-family: cursive;
@@ -63,6 +63,6 @@ margin-bottom: 100px;
 @media screen and (max-width: 625px)
 {
 
-
+/*Telephone et tablette adapt*/
 }
 /*fini*/
